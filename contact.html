@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://nacosfuk.org.ng/index.php -->
+<html lang="en" class="win"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="AMD">
+	<link rel="icon" href="./NACOS FUK_files/TYP.jpg" type="image/x-icon">
+
+  <title>TARABA YOUTH PARLIAMENT</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="./NACOS FUK_files/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="./NACOS FUK_files/css" rel="stylesheet">
+  <link href="./NACOS FUK_files/css(1)" rel="stylesheet" type="text/css">
+
+  <!-- Plugin CSS -->
+  <link href="./NACOS FUK_files/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="./NACOS FUK_files/creative.min.css" rel="stylesheet">
+
+  <style>
+    /* #mainNav{
+      background: lightgreen;
+    } */
+    header{
+      padding-top: 6rem;
+      background: linear-gradient(to bottom,rgba(66,100,77,.8) 0,rgba(80,77,66,.8) 60%),url(img/badge.png);
+      padding-bottom: 4rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: 100%;
+    }
+
+
+
+    root{
+    --primary-color:#4caf50;
+    --secondary-color:#111111;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #111111;
+}
+
+
+.topnav {
+  background-color: lightgrey;
+  overflow: hidden;
+    padding: 20px;
+
+}
+
+
+ul{
+  float: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+ h4 {
+    margin-right: 30px;
+ }
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover{
+  color: black;
+}
+ul li a{
+  background-color: none;
+  color: white;
+}
+
+
+    p{
+    margin: 20px 0 10px;
+}
+
+
+
+section{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 100px;
+}
+
+section.others{
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 25;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 25;
+    background:  var(--primary-color) url(../images/menu.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.menu.active{
+    background:  var(--primary-color) url(../images/close.png);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+
+
+.navigation{
+    position: fixed;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation.active{
+    left: 0;
+}
+
+.navigation ul li{
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #111111;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navigation ul li a:hover{
+    color: var(--primary-color);
+}
+
+
+
+
+
+/* contact page*/
+
+.contact{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* .contact-form {
+    position: relative;
+    background: #f9f9f9;
+    width: calc(100% - 400px);
+    padding: 60px 40px 20px;
+} */
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form .row {
+    width: 100%;
+    display: flex;
+    margin: 5px 10px;
+}
+
+.contact-form .fullinput {
+    width: 100%;
+    margin: 0 30px;
+}
+
+.contact-form .row input,
+.contact-form .row textarea {
+    position: relative;
+    border: 1px solid rgba(78, 76, 76, 0.8);
+    color: #111;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+    resize: none;
+}
+
+.contact-form .row textarea {
+    height: 120px;
+}
+
+.contact-form .row input[type='submit'] {
+    background-color: green;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 0;
+    margin: 0;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contact-info {
+    width: 350px;
+    background: #f9f9f9;
+    padding: 80px 40px 50px;
+}
+
+.contact-info .info-box {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.contact-info .info-box .details a {
+    columns: #111;
+}
+.contact-info .info-box .contact-icon {
+    width: 20px;
+    margin-right: 40px;
+}
+
+
+
+
+
+
+    #about{
+      background-color: darkgreen;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+
+    #legals{
+      background-color: whitesmoke;
+      padding-top: 3rem;
+      padding-bottom: 4rem;
+    }
+                                                    
+    #noticeboard{
+      /* background-color: lightgray; */
+      padding-top: 2rem;
+      padding-bottom: 0rem;
+    }
+
+    #contact{
+      background-color: whitesmoke;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+
+    #links{
+      background-color: #1b2945;
+      color: limegreen;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
+    footer{
+      background-color: darkgreen;
+    }
+
+
+    @media screen and (max-width:600px) {
+    .logo {
+        top: 20px;
+        left: 50px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    section {
+        padding: 50px;
+    }
+
+    .navigation ul li a {
+        font-size: 1.5rem;
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+    .main-image {
+        display: none;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services .service {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact {
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 60px 0 20px;
+    }
+
+    .contact-info {
+        width: 100%;
+        margin: 20px 0;
+        padding: 60px 10px 20px;
+    }
+
+    .contact-form .row {
+        margin: 15px 0;
+    }
+}
+  </style>
+  
+  <script src="./NACOS FUK_files/f.txt"></script><script src="./NACOS FUK_files/f(1).txt" id="google_shimpl"></script><script data-ad-client="ca-pub-6948141350939938" async="" src="./NACOS FUK_files/f(2).txt" data-checked-head="true"></script>
+  
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><link id="beamerStyles" type="text/css" rel="stylesheet" href="./NACOS FUK_files/beamer-embed.css"><link rel="preload" href="./NACOS FUK_files/f(3).txt" as="script"><script type="text/javascript" src="./NACOS FUK_files/f(3).txt"></script><link rel="preload" href="./NACOS FUK_files/f(4).txt" as="script"><script type="text/javascript" src="./NACOS FUK_files/f(4).txt"></script></head>
+
+<body id="page-top" class="win">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-2" id="mainNav">
+    <div class="container">
+      <!-- <a class="navbar-brand js-scroll-trigger" href="https://nacosfuk.org.ng/index.php"><img src="./NACOS FUK_files/logo.png" alt="" class="rounded" height="50px" width="140px"></a> -->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header id="home">
+    <div class="container pb-0 mb-0">
+      <div class="row h-50 pb-0 mb-0 align-items-center justify-content-center text-center">
+        <div class="col-md-10 align-self-end">
+          <img src="./NACOS FUK_files/TYP.jpg" alt="" class="rounded-circle" height="120" width="120">
+            <h2 class="text-white mt-2">Taraba Youth Parliament</h2>
+            <h3 class="text-white">(TYP)</h3>
+            <!-- <h4 class="text-white">· FUK Chapter ·</h4> -->
+            <h5 class="text-success">··· To Make A Difference ···</h5>
+             
+             <!-- Voting Notification -->
+   <!--          <div class="bg-white pt-3 pb-3" align="center">	-->
+			<!--	<h3 class="text-info fw-bold">Voting starts at: </h3>-->
+			<!--	<h5 id="electiontime" class="text-info"></h5>-->
+			<!--</div>-->
+            
+        </div>
+      </div>
+    </div>
+  </header>
+
+  
+
+
+</section> 
+
+
+<p style="text-align: center; font-size: 40px; font-weight: bold; color: green;">Contact us</p>
+
+  <section class="others">
+    
+      <div class="contact">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="fullinput">
+                <input type="text" placeholder="Name">
+              </div>
+            </div>
+             <div class="row">
+              <div class="fullinput">
+                <input type="Email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="fullinput">
+               <input type="PhoneNumber" placeholder="PhoneNumber">   
+               <label for="subject">Message</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>          
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="fullinput">
+                <input type="submit" placeholder="Send">
+              </div>
+            </div>
+
+             
+          </form>     
+      </div>
+
+      <div class="contact-info">
+        <div class="info-box">
+          <img src="address.png" class="contact-icon" alt>
+          <div class="details">
+            <h4>Address</h4>
+            <p>Jalingo, Taraba State.</p>
+          </div>
+        </div>
+         <div class="info-box">
+          <img src="email.png" class="contact-icon" alt>
+          <div class="details">
+            <h4>Email</h4>
+            <a href="mailto:amuhammedbarau3@gmail.com;" style="text-decoration: none; color: black;">tarabayouthparliament3@gmail.com</a>
+          </div>
+        </div>
+         <div class="info-box">
+          <img src="call.png" class="contact-icon" alt>
+          <div class="details">
+            <h4>Phone</h4>
+            <a href="tel:+2349067178029;" style="text-decoration: none; color: black;">+234 9067178029</a>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+ 
+      </div>
+    </div>
+  </section>
+
+  <!-- Notification icon script -->
+  <script>
+    var beamer_config = {
+      product_id : "USvlwDAH29586", //DO NOT CHANGE: This is your product code on Beamer
+      // display : "popup",
+      // icon : "bullhorn",
+      notification_prompt : "popup",
+      };
+  </script>
+  <script type="text/javascript" src="./NACOS FUK_files/beamer-embed.js.download" defer="defer"></script>
+					
+					
+    <script>
+// Set the date we're counting down to
+var countDownDate = new Date("May 31, 2021 15:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("electiontime").innerHTML = days + "Days: " + hours + "Hours: "
+  + minutes + "Mins: " + seconds + "Secs ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("electiontime").innerHTML = "Voting has ended";
+  }
+}, 1000);
+</script>
+
+  <!-- links and footer -->
+  
+
+
+
+
+  
+  
+
+  <style>
+      #links{
+      background-color: #1b2945;
+      color: limegreen;
+      padding-top: 2rem;
+      padding-bottom: 4rem;
+    }
+
+    footer{
+      background-color: darkgreen;
+    }
+  </style>
+
+
+
+
+<!--  -->
+
+ 
+
+
+
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./NACOS FUK_files/jquery.min.js.download"></script>
+  <script src="./NACOS FUK_files/bootstrap.bundle.min.js.download"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="./NACOS FUK_files/jquery.easing.min.js.download"></script>
+  <script src="./NACOS FUK_files/jquery.magnific-popup.min.js.download"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="./NACOS FUK_files/creative.min.js.download"></script>
+
+
+
+</body>
+</html>
